@@ -1,0 +1,32 @@
+html,
+body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  min-height: 100vh;
+}
+
+.img-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.img-slider img {
+  width: 50vw;
+}
+
+.img-slider__next-button,
+.img-slider__prev-button {
+  min-width: 3rem;
+  min-height: 1rem;
+  margin: 1rem;
+}
